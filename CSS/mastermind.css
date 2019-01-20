@@ -1,0 +1,139 @@
+body{
+	background-color: white;
+	margin: 0 auto;
+	width: 900px;
+  	left: 35%;
+  	position: absolute;
+  	background-image: url("../images/chair.jpg");
+  	background-size: 100%;
+}
+
+#title{
+	margin: 0 auto;
+	font-size: 50px;
+	color: yellow;
+	text-align: center;
+	margin-right: 500px;
+}
+
+#game,#result {
+  height: 500px;
+  border: solid 2px black;
+}
+#result {
+  position: absolute;
+  top: 100px;
+  left: 175px;
+  width: 150px;
+}
+#game {
+  position: absolute;
+  left: 0;  
+  width: 175px;
+  top: 100px;
+}
+
+#pionOne_0_0,#pionOne_0_1,#pionOne_0_2,#pionOne_0_3,#pionOne_1_0,#pionOne_1_1,#pionOne_1_2,#pionOne_1_3,#pionOne_2_0,#pionOne_2_1,#pionOne_2_2,#pionOne_2_3,#pionOne_3_0,#pionOne_3_1,#pionOne_3_2,#pionOne_3_3,#pionOne_4_0,#pionOne_4_1,#pionOne_4_2,#pionOne_4_3,#pionOne_5_0,#pionOne_5_1,#pionOne_5_2,#pionOne_5_3,#pionOne_6_0,#pionOne_6_1,#pionOne_6_2,#pionOne_6_3,#pionOne_7_0,#pionOne_7_1,#pionOne_7_2,#pionOne_7_3,#pionOne_8_0,#pionOne_8_1,#pionOne_8_2,#pionOne_8_3,#pionOne_9_0,#pionOne_9_1,#pionOne_9_2,#pionOne_9_3,#pionOne_10_0,#pionOne_10_1,#pionOne_10_2,#pionOne_10_3,#pionOne_11_0,#pionOne_11_1,#pionOne_11_2,#pionOne_11_3,#chosen {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border: solid 3px brown;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  top: 11px;
+}
+
+#pionTwo_0_0,#pionTwo_0_1,#pionTwo_0_2,#pionTwo_0_3,#pionTwo_1_0,#pionTwo_1_1,#pionTwo_1_2,#pionTwo_1_3,#pionTwo_2_0,#pionTwo_2_1,#pionTwo_2_2,#pionTwo_2_3,#pionTwo_3_0,#pionTwo_3_1,#pionTwo_3_2,#pionTwo_3_3,#pionTwo_4_0,#pionTwo_4_1,#pionTwo_4_2,#pionTwo_4_3,#pionTwo_5_0,#pionTwo_5_1,#pionTwo_5_2,#pionTwo_5_3,#pionTwo_6_0,#pionTwo_6_1,#pionTwo_6_2,#pionTwo_6_3,#pionTwo_7_0,#pionTwo_7_1,#pionTwo_7_2,#pionTwo_7_3,#pionTwo_8_0,#pionTwo_8_1,#pionTwo_8_2,#pionTwo_8_3,#pionTwo_9_0,#pionTwo_9_1,#pionTwo_9_2,#pionTwo_9_3,#pionTwo_10_0,#pionTwo_10_1,#pionTwo_10_2,#pionTwo_10_3,#pionTwo_11_0,#pionTwo_11_1,#pionTwo_11_2,#pionTwo_11_3 {
+  background-color: white;
+  border: solid 3px brown;
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  top: 11px;
+  height: 15px;
+	width: 15px;
+	margin: 3px;
+	margin-top: 11.5px;
+}
+
+#check,#reset{
+	position: relative;
+	display: inline-block;
+	color: white;
+	background-color: green;
+	border: none;
+	padding: 15px, 32px;
+	margin: 3px, 2px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.button{
+	font-size: 15px;
+	margin: 6px, 3px;
+	background-color: green;
+}
+
+#blok{
+	position: relative;
+	margin-top: 10px;
+}
+
+#opties{
+	position: relative;
+	top: 520px;
+	font-size: 15pxl
+}
+
+#button0, #button1, #button2, #button3, #button4, #button5{
+	position: relative;
+	display: inline-block;
+	color: black;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 3px;
+}
+
+#button0{
+	background-color: red;
+}
+
+#button1{
+	background-color: blue;
+}
+
+#button2{
+	background-color: green;
+}
+
+#button3{
+	background-color: yellow;
+}
+
+#button4{
+	background-color: pink;
+}
+
+#button5{
+	background-color: purple;
+}
+
+#opties{
+	border: 2px solid black;
+	margin-right: 570px;
+	text-align: center;
+}
+
+#inventory{
+	margin-top: 550px;
+
+}
+
+#rules{
+	margin-right: 500px;
+	margin-top: 100px;
+}
